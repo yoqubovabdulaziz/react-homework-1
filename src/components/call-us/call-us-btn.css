@@ -1,0 +1,35 @@
+.call__us__box {
+  max-width: 311px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.phone__btn {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #dcddeb;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.phone__btn__text {
+  font-size: 16px;
+  color: #6e7191;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1.600000023841858px;
+}
+
+.phone__number {
+  color: #211f54;
+  color: #6e7191;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}

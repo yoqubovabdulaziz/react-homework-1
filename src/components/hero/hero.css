@@ -1,0 +1,40 @@
+.hero {
+  padding-top: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__left {
+  padding-top: 170px;
+}
+
+.hero__title {
+  max-width: 518px;
+  width: 100%;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 22px;
+  color: #211f54;
+}
+
+.hero__body {
+  max-width: 591px;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 30px;
+  color: #6e7191;
+}
+
+.hero__left__bottom {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.hero__right__img {
+  max-width: 720px;
+  width: 100%;
+}

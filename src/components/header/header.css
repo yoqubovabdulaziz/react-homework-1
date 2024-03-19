@@ -1,0 +1,48 @@
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: 70px;
+  z-index: 5;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.nav-links {
+  color: #211f54;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.nav-end {
+  display: flex;
+  gap: 24px;
+}
+
+.cart-btn {
+  background-color: transparent;
+}
+
+.nav-quote-btn {
+  padding: 18px 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: 14px;
+  background-color: #0075ff;
+}

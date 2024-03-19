@@ -1,0 +1,54 @@
+#covid {
+  padding-bottom: 156px;
+  border-bottom: 1px solid #ccc;
+}
+
+.covid {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+  background-color: #211f54;
+  border-radius: 24px;
+}
+
+.covid__left {
+  max-width: 518px;
+  width: 518px;
+}
+
+.covid__img {
+  width: 100%;
+}
+
+.covid__caption {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.1;
+  margin-bottom: 16px;
+}
+
+.covid__title {
+  max-width: 491px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.covid__body {
+  max-width: 474px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 11px;
+}
+
+.covid__buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
